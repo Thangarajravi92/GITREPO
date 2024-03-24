@@ -25,11 +25,11 @@ public class StepImplementation {
 	public void open_browser_and_navigate() throws IOException {
 	    // Write code here that turns the phrase above into concrete actions
 			
-		FileInputStream config_fis = new FileInputStream("F:\\Eclipse_Workspace\\AutomationFrameworkUsingBDD\\src\\test\\resources\\Configuration\\Config.properties");
+		FileInputStream config_fis = new FileInputStream("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\MavenCICD\\AutomationFrameworkUsingBDD\\src\\test\\resources\\Configuration\\Config.properties");
 		Configprop = new Properties();
 		Configprop.load(config_fis);
 		
-		FileInputStream Object_fis = new FileInputStream("F:\\Eclipse_Workspace\\AutomationFrameworkUsingBDD\\src\\test\\resources\\Configuration\\ObjectRepo.properties");
+		FileInputStream Object_fis = new FileInputStream("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\MavenCICD\\AutomationFrameworkUsingBDD\\src\\test\\resources\\Configuration\\ObjectRepo.properties");
 		Objectprop = new Properties();
 		Objectprop.load(Object_fis);
 		
